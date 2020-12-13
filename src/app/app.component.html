@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<div class="logo-file-upload">
+  <input #file type="file" name="avatar" accept='image/*' (change)="GetData(file.files)" style="z-index: 999;">
+  <img [src]="imgURL" *ngIf="imgURL">
+  <div style="text-align:center" *ngIf="ocrResult">
+    <h2>Result: </h2>
+    <p>
+      {{ ocrResult }}
+    </p>
+  </div>
+
+</div>
