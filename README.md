@@ -25,3 +25,30 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Initial Setup
+Step 1:
+
+git clone https://github.com/VjRagss/imageextractor.git
+
+Step 2:
+cd imageextractor
+
+Step 3:
+
+npm install
+
+Step 4:
+
+ng serve
+
+Step 5: 
+cd api
+
+Step 6:
+
+npm install
+
+Step 7:
+
+node server.js 
